@@ -1,8 +1,5 @@
 TARGET_DIR="${1:-.}"
 
-
-cd "$TARGET_DIR" || { echo "Error: No se pudo acceder a $TARGET_DIR"; exit 1; }
-
 echo " Iniciando limpieza en: $(pwd) "
 
 
