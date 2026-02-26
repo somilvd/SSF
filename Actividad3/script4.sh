@@ -11,11 +11,11 @@ while [ $a != $b ]; do
 	read -sp "Confirma tu contraseña: " b
 	echo ""
 	if [ $a == $b ]; then
-		echo "Efectivamente, eres tú"
+		echo "OK"
 		exit 0
 
 	else 
-		echo "Error,las contraseñas no coinciden. Vuelve a intentarlo"
+		echo "ERROR"
 
 	fi
 done
